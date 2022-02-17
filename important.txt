@@ -1,4 +1,4 @@
-[{
+terms = '[{
     "word": "chad",
     "alt": "attractive man",
     "definition": ""
@@ -25,7 +25,7 @@
   },{
     "word": "ldar",
     "alt": "lay down and rot",
-    "definition": "rope"
+    "definition": ""
   },{
     "word": ["foid", "femoid", "toilet", "hole", "thot"],
     "alt": "",
@@ -75,11 +75,11 @@
     "alt": "destroy by comparison",
     "definition": ""
   }, {
-    "word": "",
+    "word": "rope",
     "alt": "",
     "definition": ""
   }, {
-    "word": "",
+    "word": "landwhale",
     "alt": "",
     "definition": ""
   }, {
@@ -91,4 +91,4 @@
     "alt": "",
     "definition": ""
   }
-]
+]'
