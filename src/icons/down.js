@@ -1,7 +1,7 @@
 function Down() {
   return (
     <svg
-      className="m-2"
+      className="m-1"
       width="30"
       height="30"
       viewBox="0 0 15 15"

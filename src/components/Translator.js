@@ -1,11 +1,9 @@
 import Down from "../icons/down";
 import { useState, useRef } from "react";
-import data from "../terms";
+import "../terms";
 
 function Translator() {
-  const chunk = "flex flex-col items-start mb-5 mt-0";
-  const box = "border-2 border-slate-200 h-[150px] w-72 text-left p-2";
-  const label = "ml-4 mb-1";
+
 
   const terms = require("../terms.json");
 
@@ -25,6 +23,8 @@ function Translator() {
         //
         // checks if root is in the word
         if (lower.includes(terms[term].root)) {
+          //
+          // goes through that root's forms
           for (let form = 0; form < terms[term].word.length; form += 1) {
             if (lower === terms[term].word[form]) {
               input[word] = terms[term].alt[form];
@@ -42,6 +42,20 @@ function Translator() {
 
     setTranslation(output);
   }
+
+// function plural(word) {
+//   console.log(word.slice(-3))
+//   if(word.slice(-3) === "ies" ) {
+//     console.log("this is plural");
+//   }
+//   if (word.charAt(word.length-1) === "s" ) {
+//     console.log("this is plurals");
+//   }
+// }
+
+const chunk = "flex flex-col items-start mb-5 mt-0";
+const box = "border-2 border-slate-200 h-fitc w-72 text-left p-2 min-h-[170px]";
+const label = "ml-4 mb-1";
 
   return (
     <div className="flex flex-col items-center w-full justify-evenly my-5">
@@ -67,7 +81,7 @@ function Translator() {
 
       <div className="">
         <button
-          className="bg-slate-200 hover:bg-slate-300 hover:shadow p-2 rounded m-7"
+          className="bg-slate-200 hover:bg-slate-300 hover:shadow p-2 rounded m-1"
           onClick={onClick}
         >
           Translate

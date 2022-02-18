@@ -1,267 +1,95 @@
 [
   {
+    "root": "incel",
+    "alt": ["incel, incels"],
+    "word": ["involuntarily celibate man", "involuntarily celibate men"],
+    "definition": ""
+  },
+  {
     "root": "chad",
-    "word": ["chad", "chads"],
-    "alt": ["attractive man", "attractive men"],
+    "word": ["chad", "chads", "chad's"],
+    "alt": ["attractive man", "attractive men", "attractive man's"],
     "definition": ""
   },
   {
     "root": "stac",
-    "word": ["stacy", "stacies"],
-    "alt": ["attractive woman", "attractive women"],
+    "word": ["stacy", "stacies", "stacy's"],
+    "alt": ["attractive woman", "attractive women", "attractive woman's"],
     "definition": ""
   },
   {
-    "word": "becky",
-    "alt": "cute girl",
-    "definition": ""
-  },
-
-  {
-    "word": "normie",
-    "alt": "normal person",
+    "root": "beck",
+    "word": ["becky", "beckies", "becky's"],
+    "alt": ["cute girl", "cute girls", "cute girl's"],
     "definition": ""
   },
   {
-    "word": "jfl",
-    "alt": "just fucking lol",
+    "root": "normie",
+    "word": ["normie", "normies"],
+    "alt": ["normal person", "normal people"],
+    "definition": ""
+  },
+  {
+    "root": "jfl",
+    "word": ["jfl"],
+    "alt": ["just fucking lol"],
     "definition": "just fucking lol (laugh out loud)"
   },
   {
-    "word": "ldar",
-    "alt": "lay down and rot",
+    "root": "ldar",
+    "word": ["ldar", "ldars"],
+    "alt": ["lay down and rot", "lays down and rots"],
     "definition": ""
   },
   {
-    "word": "foid",
-    "forms": ["foid", "femoid", "toilet", "hole", "thot"],
-    "alt": "woman",
+    "root": "oid",
+    "word": ["foid", "foids", "femoid", "femoids", "foid's", "femoid's"],
+    "alt": ["woman", "women", "woman", "women", "woman's", "woman's"],
     "definition": "degrading term for woman"
   },
   {
-    "word": "er",
-    "alt": "shoot a lot of people",
+    "root": "er",
+    "word": ["er"],
+    "alt": ["shoot a lot of people"],
     "definition": ""
   },
   {
-    "word": "cope",
-    "alt": "manage emotions",
+    "root": "cope",
+    "word": ["cope"],
+    "alt": ["manage emotions"],
     "definition": ""
   },
   {
-    "word": ["max", "maxx"],
-    "alt": "maximize",
+    "root": "max",
+    "word": ["maxx", "maxxing", "maxxes"],
+    "alt": ["maximize", "maximizing", "maximizes"],
     "definition": ""
   },
   {
-    "word": ["maxing", "maxxing"],
-    "alt": "maximizing",
+    "root": "cuck",
+    "word": ["cuck", "cucks", "cucked"],
+    "alt": ["pathetic man", "pathetic men", "pathetic"],
     "definition": ""
   },
   {
-    "word": "based",
-    "alt": "cool",
+    "root": "simp",
+    "word": ["simp", "simps"],
+    "alt": ["inferior man", "inferior men"],
     "definition": ""
   },
   {
-    "word": ["black pill", "blackpill"],
-    "alt": "",
+    "root": "beta",
+    "alt": ["beta, betas"],
+    "word": ["inferior man", "inferior men"],
     "definition": ""
   },
-  {
-    "word": ["soy", "blue pill", "bluepill", "bluepilled", "blue pilled"],
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": ["in minecraft", "in roblox", "in gta"],
-    "alt": "not in real life",
-    "definition": ""
-  },
-  {
-    "word": "cel",
-    "alt": "incel",
-    "definition": "short for incel, describes specific cause of inceldom"
-  },
-  {
-    "word": "jbw",
-    "alt": "just be white",
-    "definition": ""
-  },
-  {
-    "word": "giga",
-    "alt": "super",
-    "definition": ""
-  },
-  {
-    "word": "mog",
-    "alt": "destroy by comparison",
-    "definition": ""
-  },
-  {
-    "word": "rope",
-    "alt": "commit suicide",
-    "definition": ""
-  },
+  
+
 
   {
-    "word": "KTHHFV",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "looksmatch",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "roastie",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "cuck",
-    "alt": "pathetic man",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "alpha",
-    "alt": "superior",
-    "definition": ""
-  },
-  {
-    "word": "beta",
-    "alt": "inferior",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "smv",
-    "alt": "sexual market value",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "landwhale",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
+    "root": "",
+    "alt": [""],
+    "word": [""],
     "definition": ""
   }
 ]

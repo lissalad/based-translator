@@ -100,8 +100,7 @@
     "alt": "commit suicide",
     "definition": ""
   },
-
-  {
+x{
     "word": "KTHHFV",
     "alt": "",
     "definition": ""
@@ -122,11 +121,6 @@
     "definition": ""
   },
   {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
     "word": "alpha",
     "alt": "superior",
     "definition": ""
@@ -137,48 +131,8 @@
     "definition": ""
   },
   {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
     "word": "smv",
     "alt": "sexual market value",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
     "definition": ""
   },
   {
@@ -186,82 +140,11 @@
     "alt": "",
     "definition": ""
   },
-  {
-    "word": "",
-    "alt": "",
+   {
+    "word": "smv",
+    "alt": "sexual market value",
     "definition": ""
   },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  },
-  {
-    "word": "",
-    "alt": "",
-    "definition": ""
-  }
-]
 
 
 
