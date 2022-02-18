@@ -1,117 +1,267 @@
 [
-    {
-      "word": "chad",
-      "alt": "attractive man",
-      "definition": ""
-    },
-    {
-      "word": "stacy",
-      "alt": "attractive woman",
-      "definition": ""
-    },
-    {
-      "word": "becky",
-      "alt": "cute girl",
-      "definition": ""
-    },
-    {
-      "word": "chadlite",
-      "alt": "",
-      "definition": ""
-    },
-    {
-      "word": "normie",
-      "alt": "normal person",
-      "definition": ""
-    },
-    {
-      "word": "jfl",
-      "alt": "",
-      "definition": ""
-    },
-    {
-      "word": "ldar",
-      "alt": "lay down and rot",
-      "definition": ""
-    },
-    {
-      "word": ["foid", "femoid", "toilet", "hole", "thot"],
-      "alt": "",
-      "definition": ""
-    },
-    {
-      "word": [" ER ", "elliot rodger"],
-      "alt": "",
-      "definition": ""
-    },
-    {
-      "word": "cope",
-      "alt": "deal with emotions",
-      "definition": ""
-    },
-    {
-      "word": ["max", "maxx"],
-      "alt": "maximize",
-      "definition": ""
-    },
-    {
-      "word": "jfl",
-      "alt": "",
-      "definition": ""
-    },
-    {
-      "word": ["black pill", "blackpill"],
-      "alt": "",
-      "definition": ""
-    },
-    {
-      "word": ["soy", "blue pill", "bluepill", "bluepilled", "blue pilled"],
-      "alt": "",
-      "definition": ""
-    },
-    {
-      "word": ["in minecraft", "in roblox", "in gta"],
-      "alt": "not in real life",
-      "definition": ""
-    },
-    {
-      "word": "cel",
-      "alt": "",
-      "definition": ""
-    },
-    {
-      "word": "looks",
-      "alt": "",
-      "definition": ""
-    },
-    {
-      "word": "giga",
-      "alt": "super",
-      "definition": ""
-    },
-    {
-      "word": "mog",
-      "alt": "destroy by comparison",
-      "definition": ""
-    },
-    {
-      "word": "rope",
-      "alt": "",
-      "definition": ""
-    },
-    {
-      "word": "landwhale",
-      "alt": "",
-      "definition": ""
-    },
-    {
-      "word": "",
-      "alt": "",
-      "definition": ""
-    },
-    {
-      "word": "",
-      "alt": "",
-      "definition": ""
-    }
-  ]
+  {
+    "root": "chad",
+    "word": ["chad", "chads"],
+    "alt": ["attractive man", "attractive men"],
+    "definition": ""
+  },
+  {
+    "root": "stac",
+    "word": ["stacy", "stacies"],
+    "alt": ["attractive woman", "attractive women"],
+    "definition": ""
+  },
+  {
+    "word": "becky",
+    "alt": "cute girl",
+    "definition": ""
+  },
+
+  {
+    "word": "normie",
+    "alt": "normal person",
+    "definition": ""
+  },
+  {
+    "word": "jfl",
+    "alt": "just fucking lol",
+    "definition": "just fucking lol (laugh out loud)"
+  },
+  {
+    "word": "ldar",
+    "alt": "lay down and rot",
+    "definition": ""
+  },
+  {
+    "word": "foid",
+    "forms": ["foid", "femoid", "toilet", "hole", "thot"],
+    "alt": "woman",
+    "definition": "degrading term for woman"
+  },
+  {
+    "word": "er",
+    "alt": "shoot a lot of people",
+    "definition": ""
+  },
+  {
+    "word": "cope",
+    "alt": "manage emotions",
+    "definition": ""
+  },
+  {
+    "word": ["max", "maxx"],
+    "alt": "maximize",
+    "definition": ""
+  },
+  {
+    "word": ["maxing", "maxxing"],
+    "alt": "maximizing",
+    "definition": ""
+  },
+  {
+    "word": "based",
+    "alt": "cool",
+    "definition": ""
+  },
+  {
+    "word": ["black pill", "blackpill"],
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": ["soy", "blue pill", "bluepill", "bluepilled", "blue pilled"],
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": ["in minecraft", "in roblox", "in gta"],
+    "alt": "not in real life",
+    "definition": ""
+  },
+  {
+    "word": "cel",
+    "alt": "incel",
+    "definition": "short for incel, describes specific cause of inceldom"
+  },
+  {
+    "word": "jbw",
+    "alt": "just be white",
+    "definition": ""
+  },
+  {
+    "word": "giga",
+    "alt": "super",
+    "definition": ""
+  },
+  {
+    "word": "mog",
+    "alt": "destroy by comparison",
+    "definition": ""
+  },
+  {
+    "word": "rope",
+    "alt": "commit suicide",
+    "definition": ""
+  },
+
+  {
+    "word": "KTHHFV",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "looksmatch",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "roastie",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "cuck",
+    "alt": "pathetic man",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "alpha",
+    "alt": "superior",
+    "definition": ""
+  },
+  {
+    "word": "beta",
+    "alt": "inferior",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "smv",
+    "alt": "sexual market value",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "landwhale",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  }
+]

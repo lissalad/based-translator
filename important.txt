@@ -1,94 +1,307 @@
-terms = '[{
-    "word": "chad",
-    "alt": "attractive man",
+[
+  {
+    "word": ["chad", "chads"],
+    "alt": ["attractive man", "attractive men"],
     "definition": ""
-  },{
-    "word": "stacy",
-    "alt": "attractive woman",
+  },
+  {
+    "word": ["stacy", "stacies"],
+    "alt": ["attractive woman", "attractive women"],
     "definition": ""
-  },{
+  },
+  {
     "word": "becky",
     "alt": "cute girl",
     "definition": ""
-  },{
-    "word": "chadlite",
-    "alt": "",
-    "definition": ""
-  },{
+  },
+  {
     "word": "normie",
     "alt": "normal person",
     "definition": ""
-  },{
+  },
+  {
     "word": "jfl",
-    "alt": "",
-    "definition": ""
-  },{
+    "alt": "just fucking lol",
+    "definition": "just fucking lol (laugh out loud)"
+  },
+  {
     "word": "ldar",
     "alt": "lay down and rot",
     "definition": ""
-  },{
-    "word": ["foid", "femoid", "toilet", "hole", "thot"],
-    "alt": "",
+  },
+  {
+    "word": "foid",
+    "forms": ["foid", "femoid", "toilet", "hole", "thot"],
+    "alt": "woman",
+    "definition": "degrading term for woman"
+  },
+  {
+    "word": "er",
+    "alt": "shoot a lot of people",
     "definition": ""
-  },{
-    "word": [" ER ", "elliot rodger"],
-    "alt": "",
-    "definition": ""
-  },{
+  },
+  {
     "word": "cope",
-    "alt": "deal with emotions",
+    "alt": "manage emotions",
     "definition": ""
-  },{
+  },
+  {
     "word": ["max", "maxx"],
     "alt": "maximize",
     "definition": ""
-  },{
-    "word": "jfl",
-    "alt": "",
+  },
+  {
+    "word": ["maxing", "maxxing"],
+    "alt": "maximizing",
     "definition": ""
-  },{
+  },
+  {
+    "word": "based",
+    "alt": "cool",
+    "definition": ""
+  },
+  {
     "word": ["black pill", "blackpill"],
     "alt": "",
     "definition": ""
-  },{
-    "word": ["soy","blue pill", "bluepill", "bluepilled","blue pilled"],
+  },
+  {
+    "word": ["soy", "blue pill", "bluepill", "bluepilled", "blue pilled"],
     "alt": "",
     "definition": ""
-  }, {
+  },
+  {
     "word": ["in minecraft", "in roblox", "in gta"],
     "alt": "not in real life",
     "definition": ""
-  }, {
+  },
+  {
     "word": "cel",
-    "alt": "",
+    "alt": "incel",
+    "definition": "short for incel, describes specific cause of inceldom"
+  },
+  {
+    "word": "jbw",
+    "alt": "just be white",
     "definition": ""
-  }, {
-    "word": "looks",
-    "alt": "",
-    "definition": ""
-  }, {
+  },
+  {
     "word": "giga",
     "alt": "super",
     "definition": ""
-  }, {
+  },
+  {
     "word": "mog",
     "alt": "destroy by comparison",
     "definition": ""
-  }, {
+  },
+  {
     "word": "rope",
+    "alt": "commit suicide",
+    "definition": ""
+  },
+
+  {
+    "word": "KTHHFV",
     "alt": "",
     "definition": ""
-  }, {
-    "word": "landwhale",
+  },
+  {
+    "word": "looksmatch",
     "alt": "",
     "definition": ""
-  }, {
+  },
+  {
+    "word": "roastie",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "cuck",
+    "alt": "pathetic man",
+    "definition": ""
+  },
+  {
     "word": "",
     "alt": "",
     "definition": ""
-  }, {
+  },
+  {
+    "word": "alpha",
+    "alt": "superior",
+    "definition": ""
+  },
+  {
+    "word": "beta",
+    "alt": "inferior",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "smv",
+    "alt": "sexual market value",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "landwhale",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "alt": "",
+    "definition": ""
+  },
+  {
     "word": "",
     "alt": "",
     "definition": ""
   }
-]'
+]
+
+
+
+
+
+
+
+  function onClick() {
+
+    // loop through words in input message
+    for (let word = 0; word < input.length; word += 1) {
+
+      const stripped = input[word]
+        .replace(/[^\w\s]|_/g, "")
+        .replace(/\s+/g, " ")
+        .toLowerCase();
+
+      // loop through dictionary terms
+      for (let term = 0; term < terms.length; term += 1) {
+
+        // loop through forms of each term
+        for (let form = 0; form < terms[term].word.length; form += 1) {
+
+          console.log(terms[term].alt[form]);
+          console.log(stripped);
+
+          if (stripped === terms[term].word[form]) {
+            input[word] = terms[term].alt[form];
+
+          }
+        }
+      }
+    }
+
+    let output = "";
+    for (let w = 0; w < input.length - 1; w += 1) {
+      output += input[w];
+      output += " ";
+    }
+    output += input[input.length - 1];
+
+    setTranslation(output);
+  }
