@@ -69,13 +69,13 @@
     "root": "cuck",
     "word": ["cuck", "cucks", "cucked"],
     "alt": ["pathetic man", "pathetic men", "pathetic"],
-    "definition": ""
+    "definition": "short for cuck"
   },
   {
     "root": "simp",
     "word": ["simp", "simps"],
     "alt": ["inferior man", "inferior men"],
-    "definition": ""
+    "definition": "someone who worships one or multiple women"
   },
   {
     "root": "beta",
@@ -83,7 +83,30 @@
     "word": ["inferior man", "inferior men"],
     "definition": ""
   },
-  
+  {
+    "root": "",
+    "alt": [""],
+    "word": [""],
+    "definition": ""
+  },
+  {
+    "root": "",
+    "alt": [""],
+    "word": [""],
+    "definition": ""
+  },
+  {
+    "root": "",
+    "alt": [""],
+    "word": [""],
+    "definition": ""
+  },
+  {
+    "root": "",
+    "alt": [""],
+    "word": [""],
+    "definition": ""
+  },
 
 
   {
