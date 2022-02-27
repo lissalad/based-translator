@@ -2,6 +2,7 @@ import Down from "../icons/down";
 import "../images/chad.png";
 import { useState, useRef } from "react";
 import ReactDOM from "react-dom";
+import Definition from "./Definition";
 
 import "../terms";
 
@@ -118,35 +119,8 @@ function Translator() {
         </div>
       </section>
 
-      {/* terms translated */}
-      <section id="chad">
-        <h1 className="text-2xl">Vocabulary</h1>
-        <div className="bg-slate-100 rounded px-4 flex flex-row items-start py-4">
-          <div className="flex flex-col w-fit">
-            <div className="flex flex-row items-center justify-start space-x-3">
-              <p className="text-2xl">Chad</p>
-              <p>→</p>
-              <h2>Attractive Man</h2>
-            </div>
-            <p className="text-xs text-left indent-6 py-1 mx-5">
-              an attractive, successful, non-virgin man. women like chads. chad
-              is the ideal man, opposite and often enemy of the incel
-            </p>
-          </div>
+    <Definition props={translated[0]}/>
 
-          <div className="">
-            <img
-              className="w-32"
-              src={require("../images/chad.png")}
-              alt="chad"
-            />
-          </div>
-        </div>
-
-        {/* */}
-        {/* {console.log(termsTranslated)} */}
-        {/* <TranslatedTerm word={termsTranslated[0]}/> */}
-      </section>
     </div>
   );
 }

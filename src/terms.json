@@ -9,7 +9,8 @@
     "root": "chad",
     "word": ["chad", "chads", "chad's"],
     "alt": ["attractive man", "attractive men", "attractive man's"],
-    "definition": ""
+    "definition": "chad is attractive man",
+    "img" : "chad.png"
   },
   {
     "root": "stac",
@@ -69,7 +70,7 @@
     "root": "cuck",
     "word": ["cuck", "cucks", "cucked"],
     "alt": ["pathetic man", "pathetic men", "pathetic"],
-    "definition": "short for cuck"
+    "definition": "short for cuckhold"
   },
   {
     "root": "simp",
@@ -84,16 +85,16 @@
     "definition": ""
   },
   {
-    "root": "",
-    "alt": [""],
-    "word": [""],
-    "definition": ""
+    "root": "jbw",
+    "alt": ["jbw"],
+    "word": ["just be white"],
+    "definition": "the belief that being white would solve their problem as incels, and get them sex"
   },
   {
-    "root": "",
-    "alt": [""],
-    "word": [""],
-    "definition": ""
+    "root": "ascend",
+    "alt": ["ascend", "ascends"],
+    "word": ["stop being an incel", "stops being an incel"],
+    "definition": "to get girlfriend + sex, ascend from the curse of inceldom"
   },
   {
     "root": "",
