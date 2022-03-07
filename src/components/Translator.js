@@ -37,7 +37,7 @@ function Translator() {
           // goes through that root's forms
           for (let form = 0; form < terms[term].word.length; form += 1) {
             if (lower === terms[term].word[form]) {
-              // trackTranslated(input[word]);
+              // translated.append((input[word]));
               translated.push({
                 word: terms[term].alt[form],
                 translated: true,
@@ -119,7 +119,13 @@ function Translator() {
         </div>
       </section>
 
-    <Definition props={translated[0]}/>
+      <div className="Bands">
+      {bands.default.map(
+        (band, i) => {
+          return <Band key={i} name={band.band_name} origin={band.origin} formed={band.formed} fans={band.fans}/>
+        }
+      )}
+    </div>
 
     </div>
   );
