@@ -1,8 +1,8 @@
 [
   {
     "root": "incel",
-    "alt": ["incel, incels"],
     "word": ["involuntarily celibate man", "involuntarily celibate men"],
+    "alt": ["incel, incels"],
     "definition": ""
   },
   {
@@ -80,40 +80,26 @@
   },
   {
     "root": "beta",
-    "alt": ["beta, betas"],
-    "word": ["inferior man", "inferior men"],
-    "definition": ""
+    "word": ["beta", "betas"],
+    "alt": ["inferior man", "inferior men"],
+    "definition": "inferior man, as oppose to alpha"
   },
   {
     "root": "jbw",
-    "alt": ["jbw"],
-    "word": ["just be white"],
+    "word": ["jbw"],
+    "alt": ["just be white"],
     "definition": "the belief that being white would solve their problem as incels, and get them sex"
   },
   {
     "root": "ascend",
-    "alt": ["ascend", "ascends"],
-    "word": ["stop being an incel", "stops being an incel"],
+    "word": ["ascend", "ascends"],
+    "alt": ["stop being an incel", "stops being an incel"],
     "definition": "to get girlfriend + sex, ascend from the curse of inceldom"
   },
   {
-    "root": "wrist",
-    "alt": ["wrist cel, wristcel"],
-    "word": ["thin wristed man"],
-    "definition": "man who is incel because of his small wrists"
-  },
-  {
-    "root": "short",
-    "alt": ["shortcel, short cel"],
-    "word": ["short man"],
-    "definition": "man who is an incel because he is short"
-  },
-
-
-  {
-    "root": "looks",
-    "alt": ["looks"],
-    "word": ["appearance"],
-    "definition": "how attractive one is"
+    "root": "",
+    "word": ["", ""],
+    "alt": [""],
+    "definition": ""
   }
 ]
