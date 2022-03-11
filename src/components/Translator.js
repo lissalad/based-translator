@@ -3,9 +3,11 @@ import "../images/chad.png";
 import { useState, useRef } from "react";
 import ReactDOM from "react-dom";
 import Definition from "./Definition";
-import { type_cel } from "../lib/cel";
+import { typeCel } from "../lib/cel";
 import { wordObject } from "../lib/wordObject";
 import { scan } from "../lib/scan";
+import pluralize from "pluralize";
+import { isItPlural } from "../lib/pluralize";
 
 import "../terms";
 
@@ -19,24 +21,27 @@ function Translator() {
     "border-2 border-slate-200 h-fitc w-72 text-left p-2 min-h-[170px]";
   const label = "ml-4 mb-1";
 
+  // console.log(pluralize("chad"))
+
+
   let translated = [];
 
   function onClick() {
     let input = messageRef.current.value.split(" ");
     translated = [];
 
-
     // loop through words in input message
     for (let word = 0; word < input.length; word += 1) {
+
       let w = wordObject(input[word]);
-      w = scan(w)
+      w = scan(w);
+      w = typeCel(w);
+      w = isItPlural(w);
 
       translated.push(w);
       }
       setTranslation(createMarkup(translated));
     }
-
-  
 
   function createMarkup(translatedWords) {
     return translatedWords.map((element, index) => {

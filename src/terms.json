@@ -1,105 +1,105 @@
 [
   {
     "root": "incel",
-    "word": ["involuntarily celibate man", "involuntarily celibate men"],
-    "alt": ["incel, incels"],
+    "forms": ["incel", "incels"],
+    "normie": "involuntarily celibate man",
     "definition": ""
   },
   {
     "root": "chad",
-    "word": ["chad", "chads", "chad's"],
-    "alt": ["attractive man", "attractive men", "attractive man's"],
+    "forms": ["chad", "chads", "chad's"],
+    "normie": "attractive man",
     "definition": "chad is attractive man",
     "img" : "chad.png"
   },
   {
     "root": "stac",
-    "word": ["stacy", "stacies", "stacy's"],
-    "alt": ["attractive woman", "attractive women", "attractive woman's"],
+    "forms": ["stacy", "stacies", "stacy's"],
+    "normie": "attractive woman",
     "definition": ""
   },
   {
     "root": "beck",
-    "word": ["becky", "beckies", "becky's"],
-    "alt": ["cute girl", "cute girls", "cute girl's"],
+    "forms": ["becky", "beckies", "becky's"],
+    "normie": "cute girl",
     "definition": ""
   },
   {
     "root": "normie",
-    "word": ["normie", "normies"],
-    "alt": ["normal person", "normal people"],
+    "forms": ["normie", "normies"],
+    "normie": "normal person",
     "definition": ""
   },
   {
     "root": "jfl",
-    "word": ["jfl"],
-    "alt": ["just fucking lol"],
+    "forms": ["jfl"],
+    "normie": "just fucking lol",
     "definition": "just fucking lol (laugh out loud)"
   },
   {
     "root": "ldar",
-    "word": ["ldar", "ldars"],
-    "alt": ["lay down and rot", "lays down and rots"],
+    "forms": ["ldar", "ldars"],
+    "normie": "lay down and rot",
     "definition": ""
   },
   {
     "root": "oid",
-    "word": ["foid", "foids", "femoid", "femoids", "foid's", "femoid's"],
-    "alt": ["woman", "women", "woman", "women", "woman's", "woman's"],
+    "forms": ["foid", "foids", "femoid", "femoids", "foid's", "femoid's"],
+    "normie": "woman",
     "definition": "degrading term for woman"
   },
   {
     "root": "er",
-    "word": ["er"],
-    "alt": ["shoot a lot of people"],
+    "forms": ["er"],
+    "normie": "shoot a lot of people",
     "definition": ""
   },
   {
     "root": "cope",
-    "word": ["cope"],
-    "alt": ["manage emotions"],
+    "forms": ["cope"],
+    "normie": "manage emotions",
     "definition": ""
   },
   {
     "root": "max",
-    "word": ["maxx", "maxxing", "maxxes"],
-    "alt": ["maximize", "maximizing", "maximizes"],
+    "forms": ["maxx", "maxxing", "maxxes"],
+    "normie": "maximize",
     "definition": ""
   },
   {
     "root": "cuck",
-    "word": ["cuck", "cucks", "cucked"],
-    "alt": ["pathetic man", "pathetic men", "pathetic"],
+    "forms": ["cuck", "cucks", "cucked"],
+    "normie": "pathetic man",
     "definition": "short for cuckhold"
   },
   {
     "root": "simp",
-    "word": ["simp", "simps"],
-    "alt": ["inferior man", "inferior men"],
+    "forms": ["simp", "simps"],
+    "normie": "inferior man",
     "definition": "someone who worships one or multiple women"
   },
   {
     "root": "beta",
-    "word": ["beta", "betas"],
-    "alt": ["inferior man", "inferior men"],
+    "forms": ["beta", "betas"],
+    "normie": "inferior man",
     "definition": "inferior man, as oppose to alpha"
   },
   {
     "root": "jbw",
-    "word": ["jbw"],
-    "alt": ["just be white"],
+    "forms": ["jbw"],
+    "normie": "just be white",
     "definition": "the belief that being white would solve their problem as incels, and get them sex"
   },
   {
     "root": "ascend",
-    "word": ["ascend", "ascends"],
-    "alt": ["stop being an incel", "stops being an incel"],
+    "forms": ["ascend", "ascends"],
+    "normie": "stop being an incel",
     "definition": "to get girlfriend + sex, ascend from the curse of inceldom"
   },
   {
     "root": "",
-    "word": ["", ""],
-    "alt": [""],
+    "forms": ["", ""],
+    "normie": [""],
     "definition": ""
   }
 ]
