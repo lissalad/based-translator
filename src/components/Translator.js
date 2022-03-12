@@ -15,6 +15,7 @@ function Translator() {
   // const terms = require("../terms.json");
   // const termsTranslated = [];
   const [translation, setTranslation] = useState("");
+  const [translated, setTranslated] = useState([]);
   const messageRef = useRef();
   const chunk = "flex flex-col items-start mb-5 mt-0";
   const box =
@@ -23,12 +24,9 @@ function Translator() {
 
   // console.log(pluralize("chad"))
 
-
-  let translated = [];
-
   function onClick() {
     let input = messageRef.current.value.split(" ");
-    translated = [];
+    let translating = []
 
     // loop through words in input message
     for (let word = 0; word < input.length; word += 1) {
@@ -38,8 +36,9 @@ function Translator() {
       w = typeCel(w);
       w = isItPlural(w);
 
-      translated.push(w);
+      translating.push(w);
       }
+      setTranslated(translating);
       setTranslation(createMarkup(translated));
     }
 
@@ -52,6 +51,10 @@ function Translator() {
       }
     });
   }
+
+  const trueTranslated = translated.filter((element) => {
+    return element.translated;
+  })
 
   return (
     <div className="flex flex-col items-center mt-5">
@@ -90,14 +93,13 @@ function Translator() {
         </div>
       </section>
 
-      {/* <div className="Glossary">
-      {translated.default.map(
+      <div className="Glossary">
+      {trueTranslated.map(
         (word, i) => {
-          return <Definition key={i} word="chad" />
-          // return <Definition key={i} word={word.word[0]} root={word.root} definition={word.formed}/>
+          return <Definition key={i} w={word} />
         }
       )}
-    </div> */}
+    </div>
 
     </div>
   );
