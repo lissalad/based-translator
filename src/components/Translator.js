@@ -1,4 +1,4 @@
-import Down from "../icons/down";
+import Arrow from "../icons/arrow";
 import "../images/chad.png";
 import { useState, useRef } from "react";
 import Definition from "./Definition";
@@ -15,7 +15,7 @@ function Translator() {
   const messageRef = useRef();
   const chunk = "flex flex-col items-start mb-5 mt-0";
   const box =
-    "border-2 border-slate-200 w-72 text-left p-2 min-h-[170px]";
+    "border-2 border-slate-200 w-72 text-left p-2 min-h-[170px] md:w-[45vw] md:h-[30vh]";
   const label = "ml-4 mb-1";
 
   // console.log(pluralize("chad"))
@@ -28,7 +28,6 @@ function Translator() {
     for (let word = 0; word < input.length; word += 1) {
       let w = wordObject(input[word]);
 
-      
       w = scan(w);
       w = typeCel(w);
 
@@ -45,8 +44,8 @@ function Translator() {
   });
 
   return (
-    <div className="flex flex-col items-center mt-5">
-      <section className="flex flex-col items-center w-full justify-evenly my-5">
+    <div className="flex flex-col items-center mt-5 md:flex-row md:items-start md:justify-between whitespace-wrap">
+      <section className="flex flex-col items-center w-full justify-evenly my-5 md:w-fit md:ml-12">
         {/*  */}
         {/* message input */}
         <div className={chunk}>
@@ -61,8 +60,9 @@ function Translator() {
             required
           />
         </div>
-
-        <Down />
+        <div className="flex flex-col items-center space-y-8">
+          <Arrow />
+        </div>
 
         {/* translation output */}
         <div className={chunk}>
@@ -81,12 +81,18 @@ function Translator() {
         </div>
       </section>
 
-      <div className="Glossary bg-slate-100 mt-3 max-w-full overflow-x-hidden">
-        <h1 className="text-xl flex flex-col items-center w-screen font-semibold py-3 bg-slate-300">Vocabulary</h1>
-        {incelTranslations.map((word, i) => {
-          return <Definition key={i} w={word} />;
-        })}
-      </div>
+      {/* GLOSSARY  */}
+      {incelTranslations.length !== 0 && (
+
+        <div className="Glossary bg-slate-100 mt-3 max-w-full overflow-x-hidden md:w-[500px] md:flex md:justify-center md:flex-col md:rounded-l md:flex-nowrap md:ml-12">
+          <h1 className="text-xl flex flex-col items-center w-screen font-semibold py-3 bg-slate-300 md:w-full md:text-center">
+            Vocabulary
+          </h1>
+          {incelTranslations.map((word, i) => {
+            return <Definition key={i} w={word} />;
+          })}
+        </div>
+      )}
     </div>
   );
 }

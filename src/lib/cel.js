@@ -5,8 +5,9 @@ export function typeCel(w) {
       if (word !== "incel") {
         const type = word.slice(0, word.indexOf("cel"));
         // if type is adjective, "who is", noun "in incel because of"
+        w.word = "incel who is " + type;
         w.incel = w.original;
-        w.normie = "incel who is " + type;
+        w.definition = "incel who is " + type;
         w.translated = true;
       }
     }
