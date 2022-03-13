@@ -3,103 +3,120 @@
     "root": "incel",
     "forms": ["incel", "incels"],
     "normie": "involuntarily celibate man",
-    "definition": ""
+    "definition" : "",
+    "img" : ""
+
   },
   {
     "root": "chad",
     "forms": ["chad", "chads", "chad's"],
     "normie": "attractive man",
-    "definition": "chad is attractive man",
+    "definition": "chad is the ideal man, the opposite of an incel. he is attractive, skilled, and has lots of sex with lots of women",
     "img" : "chad.png"
   },
   {
     "root": "stac",
     "forms": ["stacy", "stacies", "stacy's"],
     "normie": "attractive woman",
-    "definition": ""
+    "definition": "",
+    "img" : ""
   },
   {
     "root": "beck",
     "forms": ["becky", "beckies", "becky's"],
     "normie": "cute girl",
-    "definition": ""
+    "definition": "",
+    "img" : ""
   },
   {
     "root": "normie",
     "forms": ["normie", "normies"],
     "normie": "normal person",
-    "definition": ""
+    "definition": "",
+    "img" : ""
   },
   {
     "root": "jfl",
     "forms": ["jfl"],
     "normie": "just fucking lol",
-    "definition": "just fucking lol (laugh out loud)"
+    "definition": "just fucking lol (laugh out loud)",
+    "img" : ""
   },
   {
     "root": "ldar",
     "forms": ["ldar", "ldars"],
     "normie": "lay down and rot",
-    "definition": ""
+    "definition": "",
+    "img" : ""
   },
   {
     "root": "oid",
     "forms": ["foid", "foids", "femoid", "femoids", "foid's", "femoid's"],
     "normie": "woman",
-    "definition": "degrading term for woman"
+    "definition": "degrading term for woman",
+    "img" : ""
   },
   {
     "root": "er",
     "forms": ["er"],
     "normie": "shoot a lot of people",
-    "definition": ""
+    "definition": "",
+    "img" : ""
   },
   {
     "root": "cope",
     "forms": ["cope"],
     "normie": "manage emotions",
-    "definition": ""
+    "definition": "",
+    "img" : ""
   },
   {
     "root": "max",
     "forms": ["maxx", "maxxing", "maxxes"],
     "normie": "maximize",
-    "definition": ""
+    "definition": "",
+    "img" : ""
   },
   {
     "root": "cuck",
     "forms": ["cuck", "cucks", "cucked"],
     "normie": "pathetic man",
-    "definition": "short for cuckhold"
+    "definition": "short for cuckhold",
+    "img" : ""
   },
   {
     "root": "simp",
     "forms": ["simp", "simps"],
     "normie": "inferior man",
-    "definition": "someone who worships one or multiple women"
+    "definition": "someone who worships one or multiple women",
+    "img" : ""
   },
   {
     "root": "beta",
     "forms": ["beta", "betas"],
     "normie": "inferior man",
-    "definition": "inferior man, as oppose to alpha"
+    "definition": "inferior man, as oppose to alpha",
+    "img" : ""
   },
   {
     "root": "jbw",
     "forms": ["jbw"],
     "normie": "just be white",
-    "definition": "the belief that being white would solve their problem as incels, and get them sex"
+    "definition": "the belief that being white would solve their problem as incels, and get them sex",
+    "img" : ""
   },
   {
     "root": "ascend",
     "forms": ["ascend", "ascends"],
     "normie": "stop being an incel",
-    "definition": "to get girlfriend + sex, ascend from the curse of inceldom"
+    "definition": "to get girlfriend + sex, ascend from the curse of inceldom",
+    "img" : ""
   },
   {
     "root": "",
     "forms": ["", ""],
     "normie": [""],
-    "definition": ""
+    "definition": "",
+    "img" : ""
   }
 ]

@@ -6,5 +6,6 @@ export function wordObject(word) {
     original: w,
     word: w,
     translated: false,
+    definition: ""
   };
 }
