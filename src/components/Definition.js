@@ -1,5 +1,5 @@
 function Definition({ w }) {
-  console.log(w.incel);
+  // console.log(w.incel);
   return (
     <div className="flex flex-row justify-between p-4">
         <div className="flex flex-col w-full">
@@ -8,7 +8,7 @@ function Definition({ w }) {
             <p>→</p>
             <p className="text-xl">{w.word}</p>
           </div>
-          <p className="text-[12px] text-left py-2 md:mx-1 w-64 w-fit" id={w.incel}>
+          <p className="text-[12px] text-left py-2 w-64 w-fit mx-6" id={w.incel}>
             {w.definition}
           </p>
         </div>

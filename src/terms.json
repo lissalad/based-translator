@@ -2,121 +2,392 @@
   {
     "root": "incel",
     "forms": ["incel", "incels"],
-    "normie": "involuntarily celibate man",
-    "definition" : "",
-    "img" : ""
-
+    "normie": "involuntarily celibate",
+    "definition": "a man no woman is willing to have sex with. celibate, but not by choice",
+    "img": ""
   },
   {
     "root": "chad",
     "forms": ["chad", "chads", "chad's"],
     "normie": "attractive man",
     "definition": "chad is the ideal man, the opposite of an incel. he is attractive, skilled, and has lots of sex with lots of women",
-    "img" : "chad.png"
+    "img": "chad.png"
   },
   {
     "root": "stac",
     "forms": ["stacy", "stacies", "stacy's"],
     "normie": "attractive woman",
-    "definition": "",
-    "img" : ""
+    "definition": "a hot, sexy, popular woman, who many men fall for",
+    "img": ""
   },
   {
     "root": "beck",
     "forms": ["becky", "beckies", "becky's"],
     "normie": "cute girl",
-    "definition": "",
-    "img" : ""
+    "definition": "a cute and pretty girl, who men are often attracted to. one rank below a stacy",
+    "img": ""
   },
   {
     "root": "normie",
     "forms": ["normie", "normies"],
     "normie": "normal person",
-    "definition": "",
-    "img" : ""
+    "definition": "condescending term for the average person. probably clueless about the world, simple minded",
+    "img": ""
   },
   {
     "root": "jfl",
     "forms": ["jfl"],
     "normie": "just fucking lol",
     "definition": "just fucking lol (laugh out loud)",
-    "img" : ""
+    "img": ""
   },
   {
     "root": "ldar",
     "forms": ["ldar", "ldars"],
     "normie": "lay down and rot",
-    "definition": "",
-    "img" : ""
+    "definition": "the exact way you don't want to spend your friday night. being at home, alone and miserable",
+    "img": ""
   },
   {
     "root": "oid",
     "forms": ["foid", "foids", "femoid", "femoids", "foid's", "femoid's"],
     "normie": "woman",
     "definition": "degrading term for woman",
-    "img" : ""
+    "img": ""
   },
   {
     "root": "er",
     "forms": ["er"],
     "normie": "shoot a lot of people",
-    "definition": "",
-    "img" : ""
+    "definition": "stands for Elliot Rodger, a popular symbol and saint in incel culture. he posted videos explaining his hatred for women before committing a mass shooting and killing himself ",
+    "img": ""
   },
   {
     "root": "cope",
     "forms": ["cope"],
     "normie": "manage emotions",
-    "definition": "",
-    "img" : ""
+    "definition": "as in cooperate, deal with sadness, specifically the feeling of loneliness",
+    "img": ""
   },
   {
     "root": "max",
     "forms": ["maxx", "maxxing", "maxxes"],
     "normie": "maximize",
-    "definition": "",
-    "img" : ""
+    "definition": "the pursuit of a certain skill or trait in order to escape inceldom and have sex with a girl",
+    "img": ""
   },
   {
     "root": "cuck",
     "forms": ["cuck", "cucks", "cucked"],
     "normie": "pathetic man",
     "definition": "short for cuckhold",
-    "img" : ""
+    "img": ""
   },
   {
     "root": "simp",
-    "forms": ["simp", "simps"],
-    "normie": "inferior man",
+    "forms": ["simp", "simps", "simped"],
+    "normie": "woman worshipper",
     "definition": "someone who worships one or multiple women",
-    "img" : ""
+    "img": ""
   },
   {
     "root": "beta",
     "forms": ["beta", "betas"],
     "normie": "inferior man",
     "definition": "inferior man, as oppose to alpha",
-    "img" : ""
+    "img": ""
   },
   {
     "root": "jbw",
     "forms": ["jbw"],
     "normie": "just be white",
     "definition": "the belief that being white would solve their problem as incels, and get them sex",
-    "img" : ""
+    "img": ""
   },
   {
     "root": "ascend",
     "forms": ["ascend", "ascends"],
     "normie": "stop being an incel",
     "definition": "to get girlfriend + sex, ascend from the curse of inceldom",
-    "img" : ""
+    "img": ""
+  },
+  {
+    "root": "inceldom",
+    "forms": ["inceldom", "inceldoms"],
+    "normie": "the state of incels",
+    "definition": "to be an incel, the state of being involuntarily celibate",
+    "img": ""
+  },
+  {
+    "root": "smv",
+    "forms": ["smv", "smvs"],
+    "normie": "sexual market value",
+    "definition": "a person's sex appeal relative to that of others",
+    "img": ""
+  },
+  {
+    "root": "sui",
+    "forms": ["suifuel", "suicide fuel"],
+    "normie": "suicide fuel",
+    "definition": "something that makes one want to kill themself, may be a depressing fact or the sight of a happy couple",
+    "img": ""
+  },
+  {
+    "root": "KHHTV",
+    "forms": ["khhtv"],
+    "normie": "romantically and sexually inexperienced man",
+    "definition": "kiss-less, hug-less, handhold-less, touch-less virgin",
+    "img": ""
+  },
+  {
+    "root": "soy",
+    "forms": ["soy"],
+    "normie": "feminine",
+    "definition": "used to describe something as feminine, especially a feminine seeming man. refers to estrogen found in soy products",
+    "img": ""
+  },
+  {
+    "root": "femcel",
+    "forms": ["femcel", "femcels"],
+    "normie": "female incel",
+    "definition": "a involuntarily celibate woman, not taken seriously by most incels",
+    "img": ""
+  },
+  {
+    "root": "deathnic",
+    "forms": ["deathnic", "deathnics"],
+    "normie": "ethnic",
+    "definition": "derogatory word often used to refer to people of color",
+    "img": ""
+  },
+  {
+    "root": "chadlet",
+    "forms": ["chadlet", "chadlets"],
+    "normie": "attractive short man",
+    "definition": "an attractive and sexually successful man despite his short height",
+    "img": ""
+  },
+  {
+    "root": "chadlite",
+    "forms": ["chadlite", "chadlites"],
+    "normie": "decently attractive man",
+    "definition": "a decently attractive and sexually attractive man, one rank below a chad",
+    "img": ""
+  },
+  {
+    "root": "based",
+    "forms": ["based"],
+    "normie": "cool",
+    "definition": "cool, awesome, rad, smart",
+    "img": ""
+  },
+  {
+    "root": "blackpill",
+    "forms": ["blackpill", "blackpills", "blackpilled"],
+    "normie": "harsh reality",
+    "definition": "the nihilistic acceptance that there is no hope in life and nothing matters, specifically in getting a girlfriend, extreme version of redpill, a term inspired by the matrix",
+    "img": ""
+  },
+  {
+    "root": "redpill",
+    "forms": ["redpill", "redpills", "redpilled"],
+    "normie": "reality",
+    "definition": "the awareness of the brutal truths in life. refers to matrix movie",
+    "img": ""
+  },  {
+    "root": "bluepill",
+    "forms": ["bluepill", "bluepilled", "bluepills"],
+    "normie": "oblivious",
+    "definition": "the ignorance and often bliss of naive hope in life, often with hopes of getting a girlfriend. refers to matrix movie",
+    "img": ""
+  },  {
+    "root": "chadfish",
+    "forms": ["chadfish", "chadfishes", "chadfishing", "chadfished"],
+    "normie": "pose online as an attractive man",
+    "definition": "like catfishing, an uses photos of a chad to go undercover and talk to women online",
+    "img": ""
+  },
+  
+  {
+    "root": "manlet",
+    "forms": ["manlet", "manlets"],
+    "normie": "short man",
+    "definition": "a short, small man",
+    "img": ""
+  },
+  {
+    "root": "tyrone",
+    "forms": ["tyrone", "tyrones"],
+    "normie": "attractive black man",
+    "definition": "an attractive black sexually successful man. a specifically black chad",
+    "img": ""
+  },
+  {
+    "root": "lookist",
+    "forms": ["lookist"],
+    "normie": "prejudice based on appearance",
+    "definition": "to make judegements or assumptions about someone based on their looks",
+    "img": ""
+  },
+  {
+    "root": "heightist",
+    "forms": ["heightist"],
+    "normie": "prejudice based on height",
+    "definition": "to make judegements or assumptions about someone based on their height",
+    "img": ""
   },
   {
     "root": "",
-    "forms": ["", ""],
-    "normie": [""],
+    "forms": [""],
+    "normie": "",
     "definition": "",
-    "img" : ""
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
+  },
+  {
+    "root": "",
+    "forms": [""],
+    "normie": "",
+    "definition": "",
+    "img": ""
   }
 ]

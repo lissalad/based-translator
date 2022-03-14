@@ -1,12 +1,12 @@
 import Arrow from "../icons/arrow";
-import "../images/chad.png";
+import Vocabulary from "./Vocabulary";
 import { useState, useRef } from "react";
-import Definition from "./Definition";
 import { typeCel } from "../lib/cel";
 import { wordObject } from "../lib/wordObject";
 import { scan } from "../lib/scan";
 import { isItPlural } from "../lib/pluralize";
 import createMarkup from "../lib/markup";
+import filterDefinedTerms from "../lib/filterTerms";
 import "../terms";
 
 function Translator() {
@@ -39,9 +39,8 @@ function Translator() {
     setTranslation(createMarkup(newTranslation));
   }
 
-  const incelTranslations = translated.filter((element) => {
-    return element.translated;
-  });
+  const incelTranslations = filterDefinedTerms(translated);
+  // console.log(incelTranslations);
 
   return (
     <div className="flex flex-col items-center mt-5 md:flex-row md:items-start md:justify-between whitespace-wrap">
@@ -81,18 +80,7 @@ function Translator() {
         </div>
       </section>
 
-      {/* GLOSSARY  */}
-      {incelTranslations.length !== 0 && (
-
-        <div className="Glossary bg-slate-100 mt-3 max-w-full overflow-x-hidden md:w-[500px] md:flex md:justify-center md:flex-col md:rounded-l md:flex-nowrap md:ml-12">
-          <h1 className="text-xl flex flex-col items-center w-screen font-semibold py-3 bg-slate-300 md:w-full md:text-center">
-            Vocabulary
-          </h1>
-          {incelTranslations.map((word, i) => {
-            return <Definition key={i} w={word} />;
-          })}
-        </div>
-      )}
+      <Vocabulary terms={incelTranslations} />
     </div>
   );
 }
