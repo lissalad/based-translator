@@ -16,7 +16,7 @@ function filterDefinedTerms(terms) {
 
   // no normie words
   terms = unique.filter((element) => {
-    console.log(element);
+    // console.log(element);
     return element.translated;
   });
 

@@ -1,7 +1,7 @@
 import Definition from "./Definition";
 
 function Vocabulary({terms}){
-  console.log(terms);
+  // console.log(terms);
   return ( 
   <>
       {terms.length !== 0 && (

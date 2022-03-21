@@ -1,10 +1,10 @@
 import Arrow from "../icons/arrow";
 import Vocabulary from "./Vocabulary";
 import { useState, useRef } from "react";
-import { typeCel } from "../lib/cel";
+import { typeCel, scan } from "../lib/translators";
 import { wordObject } from "../lib/wordObject";
-import { scan } from "../lib/scan";
-import { isItPlural } from "../lib/pluralize";
+import { isItPlural, Tensify } from "../lib/grammar";
+import { removePunctuationSpaces, restoreCaps } from "../lib/cleanup";
 import createMarkup from "../lib/markup";
 import filterDefinedTerms from "../lib/filterTerms";
 import "../terms";
@@ -21,7 +21,10 @@ function Translator() {
   // console.log(pluralize("chad"))
 
   function onClick() {
-    let input = messageRef.current.value.split(" ");
+    let input = messageRef.current.value.split(/\s*\b\s*/);
+    let sentences = messageRef.current.value.split(/[\\.!?]/);
+    // console.log(sentences);
+
     let newTranslation = [];
 
     // loop through words in input message
@@ -33,8 +36,12 @@ function Translator() {
 
       w = isItPlural(w);
 
+      // Tensify(w);
+      w = restoreCaps(w);
+
       newTranslation.push(w);
     }
+
     setTranslated(newTranslation);
     setTranslation(createMarkup(newTranslation));
   }
