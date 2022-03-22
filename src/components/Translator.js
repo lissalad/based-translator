@@ -3,7 +3,7 @@ import Vocabulary from "./Vocabulary";
 import { useState, useRef } from "react";
 import { typeCel, scan } from "../lib/translators";
 import { wordObject } from "../lib/wordObject";
-import { isItPlural, Tensify } from "../lib/grammar";
+import { isItPlural, isItPossessive, Tensify } from "../lib/grammar";
 import { removePunctuationSpaces, restoreCaps } from "../lib/cleanup";
 import createMarkup from "../lib/markup";
 import filterDefinedTerms from "../lib/filterTerms";
@@ -38,6 +38,7 @@ function Translator() {
 
       // Tensify(w);
       w = restoreCaps(w);
+      w = isItPossessive(w);
 
       newTranslation.push(w);
     }

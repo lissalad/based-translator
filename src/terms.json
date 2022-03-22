@@ -8,21 +8,21 @@
   },
   {
     "root": "chad",
-    "forms": ["chad", "chads", "chad's"],
+    "forms": ["chad", "chads"],
     "normie": "attractive man",
     "definition": "chad is the ideal man, the opposite of an incel. he is attractive, skilled, and has lots of sex with lots of women",
     "img": "chad.png"
   },
   {
     "root": "stac",
-    "forms": ["stacy", "stacies", "stacy's"],
+    "forms": ["stacy", "stacies"],
     "normie": "attractive woman",
     "definition": "a hot, sexy, popular woman, who many men fall for",
     "img": ""
   },
   {
     "root": "beck",
-    "forms": ["becky", "beckies", "becky's"],
+    "forms": ["becky", "beckies"],
     "normie": "cute girl",
     "definition": "a cute and pretty girl, who men are often attracted to. one rank below a stacy",
     "img": ""
@@ -194,20 +194,22 @@
     "normie": "reality",
     "definition": "the awareness of the brutal truths in life. refers to matrix movie",
     "img": ""
-  },  {
+  },
+  {
     "root": "bluepill",
     "forms": ["bluepill", "bluepilled", "bluepills"],
     "normie": "oblivious",
     "definition": "the ignorance and often bliss of naive hope in life, often with hopes of getting a girlfriend. refers to matrix movie",
     "img": ""
-  },  {
+  },
+  {
     "root": "chadfish",
     "forms": ["chadfish", "chadfishes", "chadfishing", "chadfished"],
     "normie": "pose online as an attractive man",
     "definition": "like catfishing, an uses photos of a chad to go undercover and talk to women online",
     "img": ""
   },
-  
+
   {
     "root": "manlet",
     "forms": ["manlet", "manlets"],
@@ -248,146 +250,6 @@
     "forms": ["giga"],
     "normie": "extreme",
     "definition": "extreme, major, super, used to emphasized",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
-    "img": ""
-  },
-  {
-    "root": "",
-    "forms": [""],
-    "normie": "",
-    "definition": "",
     "img": ""
   }
 ]

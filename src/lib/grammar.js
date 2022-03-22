@@ -1,24 +1,42 @@
 import pluralize from "pluralize";
+import * as Fin from "finnlp";
+import "fin-tense";
+
+// const Inflectors = require("en-inflectors").Inflectors;
+const nlp = require("compromise");
 
 export function isItPlural(w) {
   // console.log(w.original);
-  if(pluralize.isPlural(w.original)) {
+  if (pluralize.isPlural(w.original)) {
     w.plural = true;
     w.word = pluralize(w.word);
   }
   return w;
 }
 
-// import * as Fin from "finnlp";
-// import "fin-tense";
-
-// import { Inflectors } from "en-inflectors";
-// import nlp from "compromise";
+export function isItPossessive(w) {
+  if(w.original.charAt(-2) === "'s") {
+    w.word += "'s";
+  }
+  return w;
+}
 
 export function Tensify(w) {
-  // if( w is past tense) {
-  // let doc = nlp("you curse my kitchen");
-  // doc.verbs().toPastTense();
-  // console.log(doc.text());
-  // }
+  let word = new Fin.Run(w.original);
+  const nlpWord = nlp(word);
+  console.log(nlpWord.verbs());
+  const result = word.tense();
+  if (result[0][0] === "past") {
+    // let doc = nlp(w.word);
+    // console.log(doc.verbs().conjugate()[0].PastTense);
+    console.log("PAST");
+  }
+  else if (result[0][0] === "present") {
+    console.log("PRESENT");
+
+  }
+  else if (result[0][0] === "future") {
+    console.log("FUTURE");
+
+  }
 }
